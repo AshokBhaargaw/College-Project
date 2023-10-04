@@ -14,10 +14,9 @@ import img9 from '../Images/bedroom-5664221_640.jpg'
 import img10 from '../Images/room.webp'
 import img11 from '../Images/464303942.jpg'
 import img12 from '../Images/images (4).jpeg'
-
-
-
 import {AiOutlineInstagram,AiFillFacebook,AiOutlineWhatsApp,AiFillTwitterCircle} from 'react-icons/ai'
+
+
 function Home() {
   return (
     <div>
