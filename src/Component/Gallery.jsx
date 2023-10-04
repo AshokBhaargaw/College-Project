@@ -2,7 +2,9 @@ import React from 'react'
 
 const Gallery = () => {
   return (
-    <div>Gallery</div>
+    <>
+    <h1>jai shree ram</h1>
+    </>
   )
 }
 
