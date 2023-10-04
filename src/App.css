@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.Nav{
+  text-decoration: none; 
+  margin-right: 30px;
+  color: black;margin-top: 10px;
+  transition: color 0.53s
+}
+.Nav:hover{
+border-bottom: 1px solid #FF5733;
+color: #FF5733 !important; /* Naye rang hover per */
+background-color: #f7f7f7; 
+}
+.logo{
+  height: 60px !important;
+  width: 180px;
+  border-radius: 4px;
+}
+.navstyle{
+  display: flex;
+  justify-content: space-between;
+}
+
+.slide {
+  border-radius: 10px;
+  height: 600px;
+}
+.Cont{
+  margin: 0 auto;
+  max-width: 1500px;
+}
+.setimg{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.Imgset{
+  height: 300px;
+  width: 400px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.wt{
+  width: 400px;
+  padding: 15px;
+  padding-bottom: 0;
+}
+.cart{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: 10px;
+}
+.Imgset-2{
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.a {
+  color: black;
+  text-decoration: none;
+}
+.bt{
+  margin-left: 15px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
