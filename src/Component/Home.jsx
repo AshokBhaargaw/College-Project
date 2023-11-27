@@ -15,8 +15,6 @@ import img10 from '../Images/room.webp'
 import img11 from '../Images/464303942.jpg'
 import img12 from '../Images/images (4).jpeg'
 import {AiOutlineInstagram,AiFillFacebook,AiOutlineWhatsApp,AiFillTwitterCircle} from 'react-icons/ai'
-
-
 function Home() {
   return (
     <div>
@@ -146,7 +144,7 @@ function Home() {
         </div>
       </Container>
       <div className='Cont' style={{ marginTop: "50px" }}>
-        <img src={img11} style={{ height: "500px", width: "100%", borderRadius: "10px" }} />
+        <img src={img11} style={{ height: "600px", width: "100%", borderRadius: "10px" }} />
       </div>
 
       <div style={{ backgroundColor: "#E7E9EB" }}>
