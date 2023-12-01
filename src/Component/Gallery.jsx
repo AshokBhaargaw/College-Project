@@ -52,16 +52,28 @@ const Gallery = () => {
           </Row>
         </div>
 
-        <div>
-          <Col>
-            <img src={img8} />
-          </Col>
-          <Col>
-            <img src={img9} />
-          </Col>
-          <Col>
-            <img src={img10} />
-          </Col>
+        <div style={{ marginTop: "20px" }}>
+          <Row>
+            <Col>
+              <img src={img8} height={350} width={400} style={{ borderRadius: "10px" }} />
+            </Col>
+            <Col>
+              <img src={img9} height={350} width={400} style={{ borderRadius: "10px" }} />
+            </Col>
+            <Col>
+              <img src={img10} height={350} width={400} style={{ borderRadius: "10px" }} />
+            </Col>
+          </Row>
+        </div>
+
+        <div style={{ marginTop: "70px" }}>
+          <Row>
+            <Col><img src={img11} height={350} width={600} style={{ borderRadius: "10px" }} />
+            </Col>
+            <Col>              
+            <img src={img12} height={350} width={627} style={{ borderRadius: "10px" }} />
+            </Col>
+          </Row>
         </div>
       </div>
     </>
