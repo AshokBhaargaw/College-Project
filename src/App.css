@@ -29,23 +29,28 @@
 }
 
 
-.Nav{
-  text-decoration: none; 
+.Nav {
+  text-decoration: none;
   margin-right: 30px;
-  color: black;margin-top: 10px;
+  color: black;
+  margin-top: 10px;
   transition: color 0.53s
 }
-.Nav:hover{
-border-bottom: 1px solid #FF5733;
-color: #FF5733 !important; /* Naye rang hover per */
-background-color: #f7f7f7; 
+
+.Nav:hover {
+  border-bottom: 1px solid #FF5733;
+  color: #FF5733 !important;
+  /* Naye rang hover per */
+  background-color: #f7f7f7;
 }
-.logo{
+
+.logo {
   height: 60px !important;
-  width: 180px;
+  width: auto;
   border-radius: 4px;
 }
-.navstyle{
+
+.navstyle {
   display: flex;
   justify-content: space-between;
 }
@@ -54,31 +59,37 @@ background-color: #f7f7f7;
   border-radius: 10px;
   height: 600px;
 }
-.Cont{
+
+.Cont {
   margin: 0 auto;
   max-width: 1500px;
 }
-.setimg{
+
+.setimg {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
 }
-.Imgset{
+
+.Imgset {
   height: 300px;
   width: 400px;
   border-radius: 5px;
   padding: 5px;
 }
-.wt{
+
+.wt {
   width: 400px;
   padding: 15px;
   padding-bottom: 0;
 }
-.cart{
+
+.cart {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding-bottom: 10px;
 }
-.Imgset-2{
+
+.Imgset-2 {
   height: 400px;
   width: 400px;
   border-radius: 10px;
@@ -89,14 +100,25 @@ background-color: #f7f7f7;
   color: black;
   text-decoration: none;
 }
-.bt{
+
+.bt {
   margin-left: 15px;
 }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+
+/* --------- Code by Ashok ----------- */
+.Search-bar{
+  align-items: left;
 }
