@@ -156,12 +156,6 @@ const Contact = () => {
       </Row>
       <Row className="mt-5">
         <Col>
-          <h2>Frequently Asked Questions</h2>
-          {/* Add a section with frequently asked questions and their answers */}
-        </Col>
-      </Row>
-      <Row className="mt-5">
-        <Col>
           <h2>Terms and Conditions</h2>
           {/* Add a section with the terms and conditions for booking and staying at the hotel */}
         </Col>
