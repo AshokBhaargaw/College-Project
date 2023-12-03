@@ -24,8 +24,8 @@ const Header = () => {
                   <Link to={"/gallery"} className="Nav">
                     Gallery
                   </Link>
-                  <Link to={"/about"} className="Nav">
-                    About Us
+                  <Link to={"/services"} className="Nav">
+                    Services
                   </Link>
                   <Link to={"/contact"} className="Nav">
                     Contact

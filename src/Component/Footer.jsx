@@ -64,7 +64,9 @@ export default function Footer() {
               lg={3}
               className="justify-content-center"
             >
+              <Link to={"/contact"} className="Nav">
               <h5 className="ms-5 mt-3">Contact US</h5>
+              </Link>
               <ul
                 className="p-0 ms-5"
                 style={{ listStyle: "none", marginTop: "38px" }}
@@ -87,7 +89,9 @@ export default function Footer() {
               lg={3}
               className="justify-content-center"
             >
-              <h5 className="ms-5 mt-3">Contact</h5>
+              
+                <h5 className="ms-5 mt-3">Social Media</h5>
+             
               <ul
                 className="p-0 ms-5"
                 style={{ listStyle: "none", marginTop: "38px" }}
