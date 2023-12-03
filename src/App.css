@@ -144,3 +144,33 @@
 }
 
 
+ /* Services Page Style  */
+
+.ServicesPageSections{
+  padding: 50px;
+  margin-top: 70px !important;
+  border-radius: 20px;
+  background-color: rgb(247, 247, 247);
+}
+
+.ServicesPageSections .DetailsPart{
+  padding: 70px;
+}
+
+.ServicesPageSections .DetailsPart h3{
+  font-size: 44px;
+}
+
+.ServicesPageSections .DetailsPart p{
+  color: rgb(83, 83, 83);
+  line-height: 35px;
+}
+
+.ServicesPageSections .DetailsPart p b{
+  font-size: 24px;
+  font-style: italic;
+}
+
+.ServicesPageSections video{
+  border-radius: 20px;
+}

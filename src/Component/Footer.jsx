@@ -69,7 +69,7 @@ export default function Footer() {
               </Link>
               <ul
                 className="p-0 ms-5"
-                style={{ listStyle: "none", marginTop: "38px" }}
+                style={{ listStyle: "none" }}
               >
                 <li>New yark 1002 , us</li>
                 <li>
