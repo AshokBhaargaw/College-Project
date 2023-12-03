@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Form, Button, Card } from "react-bootstrap";
 import Footer from "./Footer";
-import HeritageHoteJodhpur from "../New Images/Heritage-Jodhpur/haritage-hotel-jodhpur 1500x600.jpeg";
+import ContactformHotelImage from "../New Images/Other-Images/Contact form Hotel Image.jpg";
 
 const Contact = () => {
   const handleReservationSubmit = (event) => {
@@ -11,27 +11,27 @@ const Contact = () => {
   return (
     <>
       <div className="ContactFormHeroImage">
-        <img src={HeritageHoteJodhpur} alt="HeritageHoteJodhpur" />
+        <img src={ContactformHotelImage} alt="Contact form Hotel Image" />
       </div>
       <Container className="ContactFormContainer">
         <Form onSubmit={handleReservationSubmit}>
           <Row className="Row">
             <Col className="Col">
-              <Form.Label>First Name</Form.Label>
+              <Form.Label>First Name:</Form.Label>
               <Form.Control placeholder="First name" />
             </Col>
             <Col className="Col">
-              <Form.Label>Last Name</Form.Label>
+              <Form.Label>Last Name:</Form.Label>
               <Form.Control placeholder="Last name" />
             </Col>
           </Row>
           <Row className="Row">
             <Col className="Col">
-              <Form.Label>Email</Form.Label>
+              <Form.Label>Email:</Form.Label>
               <Form.Control type="email" placeholder="Enter email" />
             </Col>
             <Col className="Col">
-              <Form.Label>Mobile Number(Optional)</Form.Label>
+              <Form.Label>Mobile Number: <small><i style={{color: '#afafaf'}}>(Optional) </i></small></Form.Label>
               <Form.Control type="mobile" placeholder="Mobile Number" />
             </Col>
           </Row>
