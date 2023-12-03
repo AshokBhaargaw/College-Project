@@ -16,9 +16,9 @@ const Services = () => {
               <b>1.</b> Rooms
             </h3>
             <p>
-              We have <b> Best Rooms </b> <br /> on <b> Affordable Prices </b>{" "}
-              <br />
-              with <b>Great Room Services. </b>
+              Indulge in unparalleled comfort and elegance in our hotel rooms,
+              where every detail is meticulously curated to ensure a refined and
+              relaxing stay.
             </p>
           </Col>
           <Col>
@@ -37,9 +37,9 @@ const Services = () => {
               <b>2.</b> Restorent
             </h3>
             <p>
-              We provide <b> Best Food </b> <br /> with <b> Best Hygiene </b>{" "}
-              <br />
-              <br /> We focuc to provide you <br /> <b>Best Experience</b>
+              Savor exquisite flavors in a culinary journey at our hotel's
+              restaurant, where each dish is crafted with passion, promising a
+              delightful fusion of taste and ambiance.
             </p>
           </Col>
         </Row>
@@ -59,9 +59,6 @@ const Services = () => {
             <video src={GYMClip} muted autoPlay loop width={650} />
           </Col>
         </Row>
-
-
-
       </Container>
       <Footer />
     </>
