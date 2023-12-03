@@ -5,15 +5,9 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-} */
- 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
-.App-header {
+*/ .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -116,9 +110,37 @@
 }
 
 
+/* ------------- CSS added by AJ ------------- */
 
-
-/* --------- Code by Ashok ----------- */
-.Search-bar{
-  align-items: left;
+.footer-Nav-ul li {
+  margin-left: 20px !important;
 }
+
+.ContactFormContainer {
+  margin-top: 100px;
+  width: 70vw !important;
+  padding: 50px !important;
+  background-color: rgb(46, 84, 253);
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+.ContactFormContainer .Row{
+  margin-bottom: 20px !important;
+}
+
+.ContactFormContainer .Row .Col{
+  margin: 0 10px 0 10px;
+}
+
+.ContactFormContainer .Row Button{
+  width: 150px;
+  margin: auto;
+}
+
+.ContactFormHeroImage img{
+  height: 250px;
+  width: 100vw;
+}
+
+

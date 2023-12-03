@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Carousel, Col, Container, Row } from "react-bootstrap";
-import image from "../Images/images.jpeg";
-import logo from "../Images/logo 1.png";
+import Footer from "./Footer";
+
 import CarouselImage1 from "../Images/beach-hotel.jpg";
 import CarouselImage2 from "../Images/hotels.jpg";
 import CarouselImage3 from "../Images/photo.jpg";
@@ -12,15 +12,9 @@ import RoomImage3 from "../New Images/Hotel-Rooms/3.jpg";
 import RoomImage5 from "../New Images/Hotel-Rooms/4.jpg";
 import RoomImage6 from "../New Images/Hotel-Rooms/5.jpg";
 import RoomImage4 from "../New Images/Hotel-Rooms/6.jpg";
-import HeritageHoteJodhpur from "../New Images/haritage-hotel-jodhpur 1500x600.jpeg";
-import img12 from "../Images/images (4).jpeg";
-import {
-  AiOutlineInstagram,
-  AiFillFacebook,
-  AiOutlineWhatsApp,
-  AiFillTwitterCircle,
-} from "react-icons/ai";
-import Footer from "./Footer";
+import HeritageHoteJodhpur from "../New Images/Heritage-Jodhpur/haritage-hotel-jodhpur 1500x600.jpeg";
+import HotelStaffImage from "../New Images/Other-Images/Hotel-staff.webp";
+import HotelVideoClip from "../New Images/VIdeo/Hotel-clip.mp4";
 
 function Home() {
   return (
@@ -102,8 +96,8 @@ function Home() {
                 error veniam sint quis accusamus maxime, eaque voluptates
                 accusantium assumenda .
               </p>
-              <Button variant="outline-dark" className="bt">
-                Book & Now
+              <Button variant="outline-danger" className="bt">
+                Book Now
               </Button>
             </div>
             <div className="cart">
@@ -114,8 +108,8 @@ function Home() {
                 error veniam sint quis accusamus maxime, eaque voluptates
                 accusantium assumenda .
               </p>
-              <Button variant="outline-dark" className="bt">
-                Book & Now
+              <Button variant="outline-danger" className="bt">
+                Book Now
               </Button>
             </div>
 
@@ -127,8 +121,8 @@ function Home() {
                 error veniam sint quis accusamus maxime, eaque voluptates
                 accusantium assumenda .
               </p>
-              <Button variant="outline-dark" className="bt">
-                Book & Now
+              <Button variant="outline-danger" className="bt">
+                Book Now
               </Button>
             </div>
           </div>
@@ -146,8 +140,8 @@ function Home() {
               traditional to fusion, to meet the varied tastes and preferences
               of guests.
             </p>
-            <Button variant="outline-dark" className="bt">
-              Book & Now
+            <Button variant="outline-danger" className="bt">
+              Book Now
             </Button>
           </div>
           <div className="cart">
@@ -158,8 +152,8 @@ function Home() {
               timing, and coordination. Hotel chefs must excel in the art of
               batch cooking without compromising on quality.
             </p>
-            <Button variant="outline-dark" className="bt">
-              Book & Now
+            <Button variant="outline-danger" className="bt">
+              Book Now
             </Button>
           </div>
           <div className="cart">
@@ -170,18 +164,24 @@ function Home() {
               personal touch to their experience and allows chefs to showcase
               their passion for cooking.
             </p>
-            <Button variant="outline-dark" className="bt">
-              Book & Now
+            <Button variant="outline-danger" className="bt">
+              Book Now
             </Button>
           </div>
         </div>
       </Container>
-      <div className="Cont" style={{ marginTop: "50px" }}>
-        <img
-          src={HeritageHoteJodhpur}
-          style={{ height: "600px", width: "100%", borderRadius: "10px" }}
-        />
-      </div>
+
+      <Container>
+        <div className="Cont" style={{ marginTop: "50px" }}>
+          <video
+            src={HotelVideoClip}
+            autoPlay
+            loop
+            muted
+            className="HomePageVidoe"
+          />
+        </div>
+      </Container>
 
       <div style={{ backgroundColor: "#E7E9EB" }}>
         <Container>
@@ -195,18 +195,21 @@ function Home() {
             }}
           >
             <div>
-              <img src={img12} className="Imgset" />
+              <img src={HotelStaffImage} className="Imgset" />
             </div>
             <div style={{ marginTop: "0px" }}>
-              <h2 style={{ marginLeft: "15px" }}>Amish Country Theater</h2>
+              <h2 style={{ marginLeft: "15px" }}>
+                <b style={{ fontSize: "44px" }}>B</b>est{" "}
+                <b style={{ fontSize: "44px" }}>H</b>otel In{" "}
+                <b style={{ fontSize: "44px" }}>J</b>odhpur
+              </h2>
               <p className="wt">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
-                quas quibusdam est maiores ut labore praesentium ducimus
-                recusandae provident aliquid! Tempora quisquam dolorem
-                consectetur beatae aliquid ea nemo quo at.
+                Experience unparalleled hospitality at our Hotel, where
+                personalized service meets contemporary design, creating a haven
+                for discerning travelers
               </p>
-              <p className="wt">$39 per ticket</p>
-              <Button variant="outline-dark" className="bt">
+              <p className="wt">₹500/- per ticket only</p>
+              <Button variant="outline-danger" className="bt">
                 Learn more
               </Button>
             </div>

@@ -1,12 +1,13 @@
-import React from 'react'
-import { Button, Carousel, Col, Container, Row } from "react-bootstrap";
-import logo from "../Images/logo 1.png";
+import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import logo from "../New Images/Logo/White-bg-removebg-preview.png";
+import { Link } from "react-router-dom";
 import {
-    AiOutlineInstagram,
-    AiFillFacebook,
-    AiOutlineWhatsApp,
-    AiFillTwitterCircle,
-  } from "react-icons/ai";
+  AiOutlineInstagram,
+  AiFillFacebook,
+  AiOutlineWhatsApp,
+  AiFillTwitterCircle,
+} from "react-icons/ai";
 
 export default function Footer() {
   return (
@@ -15,18 +16,12 @@ export default function Footer() {
         <Container>
           <Row className="">
             <Col xs={12} sm={6} md={4} lg={3} className="text-center">
-              <img
-                src={logo}
-                alt="logo"
-                className="img-fluid"
-                style={{ width: "230px" }}
-              />
+              <img src={logo} alt="logo" className="img-fluid" width={150} />
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
-                distinctio necessitatibus atque, labore est animi soluta nobis
-                beatae fuga voluptas accusamus repellat.
+                <h4>The Best Hotel in Jodhpur</h4>
               </p>
             </Col>
+
             <Col
               xs={12}
               sm={6}
@@ -34,33 +29,34 @@ export default function Footer() {
               lg={3}
               className="justify-content-center"
             >
-              <h5 className="ms-5 mt-3">Usefull Links</h5>
+              <h5 className="ms-5 mt-3">Navigation Links</h5>
               <ul
-                className="p-0 ms-5"
-                style={{ listStyle: "none", marginTop: "38px" }}
+                className="p-0 ms-5 footer-Nav-ul"
+                style={{ marginTop: "38px" }}
               >
                 <li>
-                  <a href="#" className="a">
+                  <Link className="Nav" to={"/"}>
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="a">
+                  <Link className="Nav" to={"/gallery"}>
                     Gallery
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="a">
-                    About us
-                  </a>
+                  <Link className="Nav" to={"/about"}>
+                    About Us
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="a">
-                    Contact us
-                  </a>
+                  <Link className="Nav" to={"/contact"}>
+                    Contact
+                  </Link>
                 </li>
               </ul>
             </Col>
+
             <Col
               xs={12}
               sm={6}
@@ -68,7 +64,7 @@ export default function Footer() {
               lg={3}
               className="justify-content-center"
             >
-              <h5 className="ms-5 mt-3">Contact</h5>
+              <h5 className="ms-5 mt-3">Contact US</h5>
               <ul
                 className="p-0 ms-5"
                 style={{ listStyle: "none", marginTop: "38px" }}
@@ -77,7 +73,7 @@ export default function Footer() {
                 <li>
                   {" "}
                   <a href="#" className="a">
-                    Example@gmail.com{" "}
+                    KAS@kashotels.com
                   </a>
                 </li>
                 <li>+ 7878456665</li>
@@ -128,5 +124,5 @@ export default function Footer() {
         </Container>
       </div>
     </div>
-  )
+  );
 }
