@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import image from "../Images/images.jpeg";
 import logo from "../Images/logo 1.png";
 import img1 from "../Images/beach-hotel.jpg";
@@ -16,21 +16,94 @@ import img11 from "../Images/464303942.jpg";
 import img12 from "../Images/images (4).jpeg";
 import Footer from "./Footer";
 
+import HotelImage1 from "../New Images/Heritage-Jodhpur/Haritage-hotel .jpeg";
+import HotelImage2 from "../New Images/Heritage-Jodhpur/Haritage-hotel.jpeg";
+import HotelImage3 from "../New Images/Heritage-Jodhpur/Heritage-Hotels-in-Jodhpur.jpg";
+import HotelImage4 from "../New Images/Heritage-Jodhpur/haritage-hotel-jodhpur 1500x600.jpeg";
+import HotelImage5 from "../New Images/Heritage-Jodhpur/haritage-hotel-jodhpur.jpeg";
+import HotelImage6 from "../New Images/Heritage-Jodhpur/heritage 430x286.jpeg";
+import HotelImage7 from "../New Images/Heritage-Jodhpur/Haritage-hotel .jpeg";
+import HotelImage8 from "../New Images/Heritage-Jodhpur/Haritage-hotel.jpeg";
+
+import Gym1 from "../New Images/Gym/Gym (1).jpg";
+import Gym2 from "../New Images/Gym/Gym (2).jpg";
+import Gym3 from "../New Images/Gym/Gym (3).jpg";
+import Gym4 from "../New Images/Gym/Gym (4).jpg";
+
 const Gallery = () => {
   return (
     <>
+      <Container>
+        <div className="Section">
+          <Row>
+            <h3>Hotel:</h3>
+          </Row>
+          <Row>
+            <Row className="GridStyle">
+              <Col xs lg="5">
+                <img src={HotelImage3} />
+              </Col>
+              <Col>
+                <img src={HotelImage4} />
+              </Col>
+            </Row>
+            <Row className="GridStyle">
+              <Col>
+                <img src={HotelImage3} />
+              </Col>
+              <Col>
+                <img src={HotelImage8} />
+              </Col>
+              <Col>
+                <img src={HotelImage6} />
+              </Col>
+            </Row>
+            <Row style={{ display: "flex", justifyContent: "space-between" }}>
+              <Col></Col>
+            </Row>
+          </Row>
+        </div>
+        <hr />
+        <div className="Section">
+          <Row>
+            <h3>GYM:</h3>
+          </Row>
+          <Row>
+            <Row className="GridStyle">
+              <Col xs lg="5">
+                <img src={Gym1} />
+              </Col>
+              <Col>
+                <img src={Gym2} />
+              </Col>
+            </Row>
+            <Row className="GridStyle">
+              <Col>
+                <img src={Gym3} />
+              </Col>
+              <Col lg="5">
+                <img src={Gym4} />
+              </Col>
+            </Row>
+          </Row>
+        </div>
+      </Container>
+
+
+{/*       
+      <hr />
       <div className="container">
         <h1>Gallery images</h1>
         <Row style={{ justifyContent: "space-between" }}>
           <Col>
             <img
               style={{ borderRadius: "10px", width: "800px", height: "450px" }}
-              src={img1}
+              src={HotelImage1}
             />
           </Col>
           <Col style={{ textAlign: "end", width: "100%" }}>
             <img
-              src={img2}
+              src={HotelImage2}
               b
               width={450}
               height={450}
@@ -42,7 +115,7 @@ const Gallery = () => {
         <Row style={{ marginTop: "30px" }}>
           <Col>
             <img
-              src={img6}
+              src={HotelImage3}
               height={370}
               width={500}
               style={{ borderRadius: "10px" }}
@@ -50,7 +123,7 @@ const Gallery = () => {
           </Col>
           <Col>
             <img
-              src={img4}
+              src={HotelImage4}
               height={370}
               width={700}
               style={{ borderRadius: "10px" }}
@@ -62,7 +135,7 @@ const Gallery = () => {
           <Row>
             <Col>
               <img
-                src={img3}
+                src={HotelImage5}
                 height={350}
                 width={400}
                 style={{ borderRadius: "10px" }}
@@ -136,8 +209,8 @@ const Gallery = () => {
             </Col>
           </Row>
         </div>
-      </div>
-        <Footer/> 
+      </div> */}
+      <Footer />
     </>
   );
 };

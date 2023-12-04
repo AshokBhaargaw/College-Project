@@ -125,52 +125,65 @@
   border-radius: 20px;
   margin-bottom: 100px;
 }
-.ContactFormContainer .Row{
+
+.ContactFormContainer .Row {
   margin-bottom: 20px !important;
 }
 
-.ContactFormContainer .Row .Col{
+.ContactFormContainer .Row .Col {
   margin: 0 10px 0 10px;
 }
 
-.ContactFormContainer .Row Button{
+.ContactFormContainer .Row Button {
   width: 150px;
   margin: auto;
 }
 
-.ContactFormHeroImage img{
+.ContactFormHeroImage img {
   height: 250px;
   width: 100vw;
 }
 
 
- /* Services Page Style  */
+/* Services Page Style  */
 
-.ServicesPageSections{
+.ServicesPageSections {
   padding: 50px;
   margin-top: 70px !important;
   border-radius: 20px;
   background-color: rgb(247, 247, 247);
 }
 
-.ServicesPageSections .DetailsPart{
+.ServicesPageSections .DetailsPart {
   padding: 70px;
 }
 
-.ServicesPageSections .DetailsPart h3{
+.ServicesPageSections .DetailsPart h3 {
   font-size: 44px;
 }
 
-.ServicesPageSections .DetailsPart p{
+.ServicesPageSections .DetailsPart p {
   color: rgb(83, 83, 83);
   line-height: 35px;
 }
 
-.ServicesPageSections .DetailsPart p b{
+.ServicesPageSections .DetailsPart p b {
   font-size: 24px;
   font-style: italic;
 }
 
-.ServicesPageSections video{
+.ServicesPageSections video {
   border-radius: 20px;
+}
+
+
+/* Gallert Grid Images */
+
+.GridStyle img {
+  border-radius: 10px;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
 }
