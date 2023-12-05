@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, Button, Form,  Navbar, Container } from "react-bootstrap";
+import { Nav, Button, Form, Navbar, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logo from "../New Images/Logo/Final-logo.png";
 
@@ -14,10 +14,10 @@ const Header = () => {
                 <img src={logo} className="logo" />
               </Navbar.Brand>
             </div>
-            <div>
+            <div className="NavBar-Menu">
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="me-auto" style={{ marginLeft: "250px" }}>
+                <Nav className="me-auto" style={{ marginLeft: "280px" }}>
                   <Link to={"/"} className="Nav">
                     Home
                   </Link>
@@ -30,21 +30,16 @@ const Header = () => {
                   <Link to={"/contact"} className="Nav">
                     Contact
                   </Link>
-                  {/* <Nav.Link href={"/"}>Home</Nav.Link>
-                            <Nav.Link to={"/about"}>About Us</Nav.Link> */}
                 </Nav>
               </Navbar.Collapse>
             </div>
-            <div className="Search-bar">
-              <Form className="d-flex">
-                <Form.Control
-                  type="search"
-                  placeholder="Search"
-                  className="me-2"
-                  aria-label="Search"
-                />
-                <Button variant="outline-success">Search</Button>
-              </Form>
+            <div className="NavBar-Button">
+              <Link to={"/signup"}>
+                <Button>SignUp</Button>
+              </Link>
+              <Link to={"/login"}>
+                <Button>Login</Button>
+              </Link>
             </div>
           </div>
         </Container>

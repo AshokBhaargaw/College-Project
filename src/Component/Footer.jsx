@@ -98,25 +98,25 @@ export default function Footer() {
               >
                 <li>
                   {" "}
-                  <a href="#" className="a ">
+                  <a href="https://instagram.com" target="_blank" className="a ">
                     <AiOutlineInstagram className="me-2 fs-4" />
                     Instagram
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="a">
+                  <a href="https://fb.com/" target="_blank" className="a">
                     <AiFillFacebook className="me-2 fs-4" />
                     Facebook
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="a">
+                  <a href="wa.link/4y1os0" className="a">
                     <AiOutlineWhatsApp className="me-2 fs-4" />
                     Whatsapp
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="a">
+                  <a href="https://x.com/" target="_blank" className="a">
                     <AiFillTwitterCircle className="me-2 fs-4" />
                     Twitter
                   </a>

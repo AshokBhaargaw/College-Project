@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+:root {
+  --dark: rgb(33, 37, 53)
+}
+
 */ .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -116,6 +120,18 @@
   margin-left: 20px !important;
 }
 
+
+/* Header Component  */
+.NavBar-Menu{
+  width: 64vw !important;
+}
+.NavBar-Button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Contact Page Css */
 .ContactFormContainer {
   margin-top: 100px;
   width: 70vw !important;
@@ -186,4 +202,15 @@
   display: flex;
   justify-content: space-between;
   margin: 20px 0px;
+}
+
+
+/* Login page css */
+.LoginForm {
+  color: white;
+  margin: 15vh auto;
+  width: 500px;
+  background-color: var(--dark);
+  padding: 50px;
+  border-radius: 10px;
 }

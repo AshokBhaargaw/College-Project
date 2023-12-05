@@ -5,6 +5,8 @@ import Header from './Component/Header';
 import Services from './Component/Services';
 import Gallery from './Component/Gallery';
 import Contact from './Component/Contact';
+import Login from './Component/Login'
+import SignUp from './Component/SignUp';
 
 const App = () => {
   return (
@@ -15,7 +17,9 @@ const App = () => {
       <Route path='/services' element={<Services/>}/>
       <Route path='/gallery' element={<Gallery/>}/>
       <Route path='/contact' element={<Contact/>}/>
-    </Routes>
+      <Route path='/login' element={<Login/>}/>
+      <Route path='/signup' element={<SignUp/>}/>
+      </Routes>
 
     </>
   );

@@ -48,7 +48,7 @@ const Services = () => {
         <Row className="ServicesPageSections">
           <Col className="DetailsPart">
             <h3>
-              <b>3.</b> GYM
+              <b>3.</b> Events
             </h3>
             <p>
               Empower your stay with our fully-equipped gym, where fitness meets
