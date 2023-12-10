@@ -95,7 +95,7 @@ function Home() {
                 error veniam sint quis accusamus maxime, eaque voluptates
                 accusantium assumenda .
               </p>
-              <Button variant="outline-danger" className="bt">
+              <Button variant="outline-danger" style={{marginLeft: "50%", transform: "translate(-50%)"}} className="bt">
                 Book Now
               </Button>
             </div>
@@ -107,7 +107,7 @@ function Home() {
                 error veniam sint quis accusamus maxime, eaque voluptates
                 accusantium assumenda .
               </p>
-              <Button variant="outline-danger" className="bt">
+              <Button variant="outline-danger" style={{marginLeft: "50%", transform: "translate(-50%)"}} className="bt">
                 Book Now
               </Button>
             </div>
@@ -120,7 +120,7 @@ function Home() {
                 error veniam sint quis accusamus maxime, eaque voluptates
                 accusantium assumenda .
               </p>
-              <Button variant="outline-danger" className="bt">
+              <Button variant="outline-danger" style={{marginLeft: "50%", transform: "translate(-50%)"}} className="bt">
                 Book Now
               </Button>
             </div>
@@ -139,7 +139,7 @@ function Home() {
               traditional to fusion, to meet the varied tastes and preferences
               of guests.
             </p>
-            <Button variant="outline-danger" className="bt">
+            <Button variant="outline-danger" style={{marginLeft: "50%", transform: "translate(-50%)"}} className="bt">
               Book Now
             </Button>
           </div>
@@ -151,7 +151,7 @@ function Home() {
               timing, and coordination. Hotel chefs must excel in the art of
               batch cooking without compromising on quality.
             </p>
-            <Button variant="outline-danger" className="bt">
+            <Button variant="outline-danger" style={{marginLeft: "50%", transform: "translate(-50%)"}} className="bt">
               Book Now
             </Button>
           </div>
@@ -163,7 +163,7 @@ function Home() {
               personal touch to their experience and allows chefs to showcase
               their passion for cooking.
             </p>
-            <Button variant="outline-danger" className="bt">
+            <Button variant="outline-danger" style={{marginLeft: "50%", transform: "translate(-50%)"}} className="bt">
               Book Now
             </Button>
           </div>
