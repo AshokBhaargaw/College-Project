@@ -16,14 +16,14 @@ import img11 from "../Images/464303942.jpg";
 import img12 from "../Images/images (4).jpeg";
 import Footer from "./Footer";
 
-import HotelImage1 from "../New Images/Heritage-Jodhpur/Haritage-hotel .jpeg";
-import HotelImage2 from "../New Images/Heritage-Jodhpur/Haritage-hotel.jpeg";
-import HotelImage3 from "../New Images/Heritage-Jodhpur/Heritage-Hotels-in-Jodhpur.jpg";
-import HotelImage4 from "../New Images/Heritage-Jodhpur/haritage-hotel-jodhpur 1500x600.jpeg";
-import HotelImage5 from "../New Images/Heritage-Jodhpur/haritage-hotel-jodhpur.jpeg";
-import HotelImage6 from "../New Images/Heritage-Jodhpur/heritage 430x286.jpeg";
-import HotelImage7 from "../New Images/Heritage-Jodhpur/Haritage-hotel .jpeg";
-import HotelImage8 from "../New Images/Heritage-Jodhpur/Haritage-hotel.jpeg";
+import HotelImage1 from "../New Images/Jodhpur-Hotels/Haritage-hotel .jpeg";
+import HotelImage2 from "../New Images/Jodhpur-Hotels/Haritage-hotel.jpeg";
+import HotelImage3 from "../New Images/Jodhpur-Hotels/Heritage-Hotels-in-Jodhpur.jpg";
+import HotelImage4 from "../New Images/Jodhpur-Hotels/haritage-hotel-jodhpur 1500x600.jpeg";
+import HotelImage5 from "../New Images/Jodhpur-Hotels/haritage-hotel-jodhpur.jpeg";
+import HotelImage6 from "../New Images/Jodhpur-Hotels/heritage 430x286.jpeg";
+import HotelImage7 from "../New Images/Jodhpur-Hotels/Haritage-hotel .jpeg";
+import HotelImage8 from "../New Images/Jodhpur-Hotels/Haritage-hotel.jpeg";
 
 import Gym1 from "../New Images/Gym/Gym (1).jpg";
 import Gym2 from "../New Images/Gym/Gym (2).jpg";

@@ -2,10 +2,10 @@ import React from "react";
 import { Button, Carousel, Col, Container, Row } from "react-bootstrap";
 import Footer from "./Footer";
 
-import CarouselImage1 from "../Images/beach-hotel.jpg";
-import CarouselImage2 from "../Images/hotels.jpg";
-import CarouselImage3 from "../Images/photo.jpg";
-import AboutDescImage from "../Images/hotel-1640201_1280.jpg";
+import CarouselImage1 from "../New Images/Jodhpur-Hotels/FIJOHmNXIAobtEI.jpg";
+import CarouselImage2 from "../New Images/Jodhpur-Hotels/radisson-jodhpur (4). pg.jpg";
+import CarouselImage3 from "../New Images/Jodhpur-Hotels/bijolai-palace-a-inde (2).jpg";
+import AboutDescImage from "../New Images/Jodhpur/varun-gaba-GkaKPn0wyz8-unsplash.jpg";
 import RoomImage1 from "../New Images/Hotel-Rooms/1.jpg";
 import RoomImage2 from "../New Images/Hotel-Rooms/2.jpg";
 import RoomImage3 from "../New Images/Hotel-Rooms/3.jpg";
@@ -61,21 +61,20 @@ function Home() {
           <Row>
             <Col style={{ marginTop: "40px" }}>
               <h2 style={{ width: "400px", fontFamily: "-moz-initial" }}>
-                About the Berlin Encore Hotel and Suites
+                About the KAS Hotels and Suites
               </h2>
               <p style={{ width: "500px" }}>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Officiis, earum nam explicabo incidunt iusto in expedita numquam
-                nisi aliquid similique veritatis neque optio, repellendus
-                tenetur, distinctio debitis esse sit animi fugiat harum vel.
-                Voluptatum, aperiam modi reprehenderit sint ducimus minima
-                mollitia illum dolorem possimus praesentium suscipit similique
-                error id. Eveniet!
+                Explore Jodhpur's charming hotels on KAS Hotels! Find a perfect
+                blend of comfort and tradition in every stay. Immerse yourself
+                in the vibrant culture of the Blue City while enjoying top-notch
+                amenities. Your journey to Jodhpur begins with us, offering
+                unique and delightful accommodation experiences. Book now for a
+                royal and memorable stay!
               </p>
-              <p>Jeff surname -Managing Director</p>
+              <b>Have a royal time with us!</b>
             </Col>
             <Col className="text-center">
-              <img src={AboutDescImage} className="Imgset-2 " />
+              <img src={AboutDescImage} className="Imgset-2 " style={{borderRadius: "30px"}} />
             </Col>
           </Row>
         </Container>
@@ -95,7 +94,11 @@ function Home() {
                 error veniam sint quis accusamus maxime, eaque voluptates
                 accusantium assumenda .
               </p>
-              <Button variant="outline-danger" style={{marginLeft: "50%", transform: "translate(-50%)"}} className="bt">
+              <Button
+                variant="outline-danger"
+                style={{ marginLeft: "50%", transform: "translate(-50%)" }}
+                className="bt"
+              >
                 Book Now
               </Button>
             </div>
@@ -107,7 +110,11 @@ function Home() {
                 error veniam sint quis accusamus maxime, eaque voluptates
                 accusantium assumenda .
               </p>
-              <Button variant="outline-danger" style={{marginLeft: "50%", transform: "translate(-50%)"}} className="bt">
+              <Button
+                variant="outline-danger"
+                style={{ marginLeft: "50%", transform: "translate(-50%)" }}
+                className="bt"
+              >
                 Book Now
               </Button>
             </div>
@@ -120,7 +127,11 @@ function Home() {
                 error veniam sint quis accusamus maxime, eaque voluptates
                 accusantium assumenda .
               </p>
-              <Button variant="outline-danger" style={{marginLeft: "50%", transform: "translate(-50%)"}} className="bt">
+              <Button
+                variant="outline-danger"
+                style={{ marginLeft: "50%", transform: "translate(-50%)" }}
+                className="bt"
+              >
                 Book Now
               </Button>
             </div>
@@ -139,7 +150,11 @@ function Home() {
               traditional to fusion, to meet the varied tastes and preferences
               of guests.
             </p>
-            <Button variant="outline-danger" style={{marginLeft: "50%", transform: "translate(-50%)"}} className="bt">
+            <Button
+              variant="outline-danger"
+              style={{ marginLeft: "50%", transform: "translate(-50%)" }}
+              className="bt"
+            >
               Book Now
             </Button>
           </div>
@@ -151,7 +166,11 @@ function Home() {
               timing, and coordination. Hotel chefs must excel in the art of
               batch cooking without compromising on quality.
             </p>
-            <Button variant="outline-danger" style={{marginLeft: "50%", transform: "translate(-50%)"}} className="bt">
+            <Button
+              variant="outline-danger"
+              style={{ marginLeft: "50%", transform: "translate(-50%)" }}
+              className="bt"
+            >
               Book Now
             </Button>
           </div>
@@ -163,7 +182,11 @@ function Home() {
               personal touch to their experience and allows chefs to showcase
               their passion for cooking.
             </p>
-            <Button variant="outline-danger" style={{marginLeft: "50%", transform: "translate(-50%)"}} className="bt">
+            <Button
+              variant="outline-danger"
+              style={{ marginLeft: "50%", transform: "translate(-50%)" }}
+              className="bt"
+            >
               Book Now
             </Button>
           </div>
