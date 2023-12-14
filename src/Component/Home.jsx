@@ -13,7 +13,7 @@ import RoomImage5 from "../New Images/Hotel-Rooms/4.jpg";
 import RoomImage6 from "../New Images/Hotel-Rooms/5.jpg";
 import RoomImage4 from "../New Images/Hotel-Rooms/6.jpg";
 import HotelStaffImage from "../New Images/Other-Images/Hotel-staff.webp";
-import HotelVideoClip from "../New Images/Video/Hotel-clip.mp4";
+import HotelVideoClip from "../New Images/Videos/Hotel-clip.mp4";
 
 function Home() {
   return (

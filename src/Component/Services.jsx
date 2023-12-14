@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import Footer from "./Footer";
-import HotelRommVideo from "../New Images/Video/HotelRoom.mp4";
-import RestorentClip from "../New Images/Video/Restorent.mp4";
-import GYMClip from "../New Images/Video/GymClip.mp4";
+import HotelRommVideo from "../New Images/Videos/HotelRoom.mp4";
+import RestorentClip from "../New Images/Videos/Restorent.mp4";
+import GYMClip from "../New Images/Videos/GymClip.mp4";
 
 const Services = () => {
   return (
