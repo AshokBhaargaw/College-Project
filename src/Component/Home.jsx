@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Carousel, Col, Container, Row } from "react-bootstrap";
 import Footer from "./Footer";
+import SearchOnCarousel from './Search'
 
 import CarouselImage1 from "../New Images/Jodhpur-Hotels/FIJOHmNXIAobtEI.jpg";
 import CarouselImage2 from "../New Images/Jodhpur-Hotels/radisson-jodhpur (4). pg.jpg";
@@ -19,39 +20,33 @@ function Home() {
   return (
     <div>
       <div className="Cont">
+        <div className="checkinCheckoutdiv">
+          <SearchOnCarousel/>
+        </div>
         <Carousel>
           <Carousel.Item>
             <img
               className="d-block w-100 slide "
-              src={CarouselImage1} // Replace with the path to your image
+              src={CarouselImage1}
               alt="First slide"
             />
-            <Carousel.Caption>
-              {/* <h3>Slide 1</h3>
-          <p>Some description for the first slide.</p> */}
-            </Carousel.Caption>
+            <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100 slide"
-              src={CarouselImage2} // Replace with the path to your image
+              src={CarouselImage2}
               alt="Second slide"
             />
-            <Carousel.Caption>
-              {/* <h3>Slide 2</h3>
-          <p>Some description for the second slide.</p> */}
-            </Carousel.Caption>
+            <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100 slide"
-              src={CarouselImage3} // Replace with the path to your image
+              src={CarouselImage3}
               alt="Third slide"
             />
-            <Carousel.Caption>
-              {/* <h3>Slide 3</h3>
-          <p>Some description for the third slide.</p> */}
-            </Carousel.Caption>
+            <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
         </Carousel>
       </div>
@@ -74,7 +69,11 @@ function Home() {
               <b>Have a royal time with us!</b>
             </Col>
             <Col className="text-center">
-              <img src={AboutDescImage} className="Imgset-2 " style={{borderRadius: "30px"}} />
+              <img
+                src={AboutDescImage}
+                className="Imgset-2 "
+                style={{ borderRadius: "30px" }}
+              />
             </Col>
           </Row>
         </Container>
